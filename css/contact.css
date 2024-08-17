@@ -1,0 +1,35 @@
+/* CONTACT A */
+
+.connection-m {
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+#header_inner ul {
+    padding-left: 0;
+}
+
+#map {
+    height: 450px;
+}
+
+@media (min-width: 768px) {
+    #map {
+        height: 100%;
+    }
+}
+
+/* CONTACT B */
+#contact-b {
+    margin-top: 6rem;
+    background-color: #333;
+    border-bottom: 3px solid var(--medium-color);
+}
+
+#contact-b .contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    color: #fff;
+}
+

@@ -1,0 +1,43 @@
+/* about a */
+
+#about-a .info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.2rem;
+}
+
+#about-a .info .info_image {
+    border: 1px solid var(--light-color);
+    border-radius: 50%;
+    padding: .5rem;
+    width: 300px;
+    height: 300px;
+    margin-left: 4%;
+}
+
+#about-a .info .info-bio {
+    padding: .8rem;
+    border: 1px solid var(--light-color);
+}
+
+/* about b */
+
+#about-b .references ul {
+    list-style: none;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#about-b .references p {
+    border: 1px solid var(--medium-color);
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+#about-b .references img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-right: .5rem;
+}

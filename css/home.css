@@ -1,0 +1,57 @@
+/* skillls*/
+
+#home_a .skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+#home_a .skills i {
+    color: var(--primary-color);
+    padding-bottom: .5rem;
+}
+
+/* profile */
+
+#home_b .profile {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#home_b .profile div { 
+    padding: 3rem 0;
+}
+
+#home_b .profile div .title {
+    font-size: 1.5rem;
+}
+
+#home_b .profile div .number {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* working process */
+
+#home_c .process {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    text-align: center;
+}
+
+#home_c .process .process_icon {
+    position: relative;
+    width: 125px;
+    height: 125px;
+    color: #fff;
+    background-color: var(--dark-color);
+    padding: 2rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#home_c .process .process_icon:hover {
+    background-color: var(--primary-color);
+}

@@ -1,0 +1,142 @@
+/* tablets */
+@media (max-width: 768px) {
+    #header_home {
+        height: 30rem;
+    }
+
+    #header_home .header-content {
+        padding-top: 7rem;
+    }
+
+    #header_home h1 {
+        font-size: 2.6rem;
+    }
+
+    #home_a .skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #home_b .profile {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #home_c .process {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #projects .items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .connection-m {
+        margin-left: 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    #header_home {
+        height: 10rem;
+        border-bottom: 2px solid var(--primary-color);
+        background-position: 20% 30%;
+    }
+
+    #header_home .header-content {
+        display: none;
+    }
+
+    #header_inner {
+        height: 10rem;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-nav .main-nav_item li {
+        padding: 1rem;
+    }
+
+    #home_a .skills {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #home_a .skills div {
+        border-bottom: 1px solid var(--light-color);
+        padding-bottom: 1rem;
+    }
+
+    #home_a .skills div:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    #home_b .profile {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    #home_c .process {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #main-footer {
+        height: 7rem;
+    }
+
+    #main-footer .footer-content {
+        flex-direction: column;
+        padding: 1rem;
+        height: 5rem;
+    }
+
+    #main-footer .footer-content .social {
+        padding-top: 1rem;
+    }
+
+    #about-a .info {
+        grid-template-columns: 1fr;
+    }
+
+    #about-c{
+        display: none;
+    }
+
+    #projects .items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #contact-a .form-fields {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #contact-a .form-fields .message {
+        grid-column: 1 / span 1;
+    }
+    
+    #contact-a .form-fields .btn-form {
+        grid-column: 1 / span 1;
+    }
+
+    #contact-b .contact-info {
+        grid-template-columns: 1fr;
+    }
+
+    #contact-b .contact-info div {
+        border-bottom: 1px dashed #fff;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #contact-b .contact-info div:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .lead {
+        font-size: 1rem;
+        word-spacing: 1px;
+        margin-bottom: 1.2rem;
+    }
+}
